@@ -482,9 +482,7 @@ function appendOutput(text){
   clearOutput();
 });
 
-/* =========================================================
-   5) «А чего так мало?» — запуск по вьюпорту, быстрый тайпинг
-   ========================================================= */
+
 document.addEventListener('DOMContentLoaded', () => {
   const moreCard = document.querySelector('#more-projects-card, .more-card');
   if (!moreCard) return;
